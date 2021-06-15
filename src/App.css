@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.Menu{
+  list-style: none;
+  padding: 0%;
+  background: #092327;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+.Menu li a{
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+}
+
+.Menu li{
+  display: inline-block;
+  text-align: center;
+}
+
+.Menu li:hover{
+  background: #ef8354;
+}
