@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-menu{
+.Menu{
   list-style: none;
   padding: 0%;
   background: #092327;
@@ -10,18 +10,18 @@
   max-width: 1000px;
   margin: auto;
 }
-.App-menu li a{
+.Menu li a{
   text-decoration: none;
   color: white;
   padding: 20px;
   display: block;
 }
 
-.App-menu li{
+.Menu li{
   display: inline-block;
   text-align: center;
 }
 
-.App-menu li:hover{
+.Menu li:hover{
   background: #ef8354;
 }
