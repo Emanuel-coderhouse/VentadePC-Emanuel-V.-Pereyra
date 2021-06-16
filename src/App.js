@@ -38,7 +38,7 @@ class App extends Component{
              <UserCard
               name={'Emanuel Pereyra'} 
               description={"Alumno CoderHouse"} 
-              img={"https://i2.wp.com/cinefilosoficial.com/wp-content/uploads/2021/03/meme-shrek.jpg?resize=1024%2C597&ssl=1"} 
+              img={"https://i.pinimg.com/564x/3b/3d/3a/3b3d3a9cddbba62819b18732093b5179.jpg"} 
               date={"Comenzando a aprender React"}/>;
       </div>
       <div className='counter-section'>{this.state.count}
