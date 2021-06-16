@@ -1,6 +1,20 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './Header.css';
 
+
+function Header ({title, color, subtitle}) {
+    return (
+        <div className='Header'>
+            <h1 style={{ color: `${color}` }}>{title}</h1>
+            <h2>{subtitle}</h2>
+        </div>
+    )
+}
+
+
+
+
+/*
 class Header extends Component{
     render () {
         return (
@@ -12,5 +26,5 @@ class Header extends Component{
         )
     }
 }
-
+*/
 export default Header;

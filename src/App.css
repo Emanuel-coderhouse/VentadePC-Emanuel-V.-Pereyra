@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .Menu{
@@ -24,4 +28,32 @@
 
 .Menu li:hover{
   background: #ef8354;
+}
+
+.UserSection {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.counter-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+  font-size: 24px;
+  padding: 20px;
+  color: blue;
+  font: 34px;
+}
+
+.span-counter {
+  color: red;
+  font-size: 30px;
+}
+
+.btn-section {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
 }
